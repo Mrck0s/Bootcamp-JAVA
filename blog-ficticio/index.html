@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <title>Mi Blog Ficticio</title>
     <meta
       name="description"
-      content="Bienvenido a mi blog ficticio, donde comparto mis pasiones y experiencias en [tema principal]. Descubre artículos interesantes y útiles sobre [tema principal] y mantente actualizado."
+      content="Bienvenido a mi blog ficticio, donde comparto mis pasiones y experiencias en programacion. Descubre artículos interesantes y útiles sobre desarrollo web y mantente actualizado."
     />
   </head>
   <body>
@@ -38,7 +38,9 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="https://www.freecodecamp.org/learn">FreeCodeCamp</a></td>
+            <td>
+              <a href="https://www.freecodecamp.org/learn">FreeCodeCamp</a>
+            </td>
             <td>Aprende las tecnologías mas demandads de forma GRATUITA</td>
           </tr>
           <tr>
@@ -65,35 +67,23 @@
         <option value="opcion3">Un conocido</option></select
       ><br /><br />
 
-      <label for="preferencias">¿Qué lenguaje te gusta más?</label><br />
-      <input type="checkbox" name="go" value="go" />
-      <label for="preferencia1">Go</label><br />
-      <input type="checkbox" name="c++" value="c++" />
+      <span>¿Qué lenguaje te gusta más?</span><br />
+      <input type="checkbox" id="go" name="go" value="go" />
+      <label for="go">Go</label><br />
+      <input type="checkbox" id="c++" name="c++" value="c++" />
       <label for="c++">C++</label><br />
-      <input type="checkbox" name="php" value="php" />
+      <input type="checkbox" id="php" name="php" value="php" />
       <label for="php">PHP</label><br /><br />
 
-      <label for="experiencia"
+      <span
         >¿Cómo describirías tu experiencia en tus primero pasos en la
-        programación?</label
+        programación?</span
       ><br />
-      <input
-        type="radio"
-        name="fluida"
-        value="fluida"
-      />
+      <input type="radio" id="fluida" name="fluida" value="fluida" />
       <label for="fluida">Fluida</label><br />
-      <input
-        type="radio"
-        name="mejor"
-        value="mejor"
-      />
+      <input type="radio" id="mejor" name="mejor" value="mejor" />
       <label for="mejor">Podría haber sido mejor</label><br />
-      <input
-        type="radio"
-        name="dificil"
-        value="dificil"
-      />
+      <input type="radio" id="dificil" name="dificil" value="dificil" />
       <label for="dificil">Difícil</label><br /><br />
 
       <input type="submit" value="Enviar" />
