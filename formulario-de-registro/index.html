@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario</title>
+</head>
+<body>
+  <h1>Mi Formulario de Registro</h1>
+  <form>
+    <label for="nombre">Nombre:</label>
+    <input type="text" name="nombre">
+    <label for="apellido">Apellido:</label>
+    <input type="text" name="apellido">
+    <label for="email">Email:</label>
+    <input type="text" name="email">
+    <label for="password">Contraseña:</label>
+    <input type="password" name="password">
+    <label for="confirm">Confirmar:</label>
+    <input type="password" name="confrim">
+    <label for="birthday">Cumpleaños:</label>
+    <input type="date" name="birthday">
+    <label for="masculino">Hombre</label>
+    <input type="radio" name="genero" value="hombre">
+    <label for="femenino">Mujer</label>
+    <input type="radio" name="genero" value="mujer">
+    <label for="otro">Otro</label>
+    <input type="radio" name="genero" value="otro">
+    <label for="description">Una breve descripción de ti:</label>
+    <textarea name="description"></textarea>
+    <select name="lenguaje">
+      <option value="js">JavaScript</option>
+      <option value="java">Java</option>
+      <option value="python">Python</option>
+    </select>
+    <input type="submit" value="Enviar">  
+  </form>
+</body>
+</html>
