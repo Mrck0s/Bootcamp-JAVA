@@ -18,12 +18,12 @@ body{
   font-weight: bold;
 }
 .header-name{
-  font-size: 28px;
+  font-size: 24px;
 }
 .main{
   height: 86%;
   width: 100%;
-  background-color: #322518;
+  background: linear-gradient(#2e130a, #615050,#2e130a) ;
 }
 .about-container{
   display: flex;
