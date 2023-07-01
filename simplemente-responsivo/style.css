@@ -30,7 +30,7 @@
     padding: 10px;
   }
 }
-@media (min-width: 481px){
+@media (max-width: 1023px){
   .title{
     padding: 15px;
   }
