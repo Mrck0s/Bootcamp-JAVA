@@ -1,0 +1,129 @@
+.round {
+  border-radius: 10px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-color: #2d0a2d;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+}
+.header nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header nav ul {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+  list-style: none;
+  padding: 20px;
+}
+.header nav ul li {
+  padding: 5px;
+  transition: all 0.5;
+}
+.header nav ul li a {
+  text-decoration: none;
+  color: #f5deb3;
+}
+.header nav ul li:hover {
+  transform: scale(1.2);
+}
+.header nav div {
+  display: flex;
+  width: 20%;
+  padding: 20px;
+  align-items: end;
+}
+.header nav div input {
+  border: none;
+  background-color: #f5deb3;
+  color: #2d0a2d;
+  margin: 0 10px;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+.header nav div button {
+  display: inline-block;
+  padding: 5px;
+  background-color: #59c8fc;
+  border: none;
+  border-radius: 10px;
+  color: #2d0a2d;
+}
+.main {
+  display: flex;
+  background-color: #9e4b9e;
+}
+.main .side-menu {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  min-width: 250px;
+  background-color: #512651;
+}
+.main .side-menu div {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px 0;
+}
+.main .side-menu div label {
+  width: 90%;
+  color: #f5deb3;
+  text-align: center;
+}
+.main .side-menu ul {
+  list-style: square;
+  color: #59c8fc;
+  width: 50%;
+  text-align: center;
+  margin: 50px auto;
+}
+.main .side-menu ul li {
+  transition: all 0.5s;
+}
+.main .side-menu ul li a {
+  color: #f5deb3;
+}
+.main .side-menu ul li:hover {
+  transform: scale(1.3);
+}
+.main .results {
+  width: 75%;
+}
+.main .results div {
+  margin: 20px 0;
+}
+.main .results div h4 {
+  color: #2d0a2d;
+  font-style: italic;
+  font-size: 24px;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 10px 20px;
+}
+.main .results div div {
+  display: flex;
+  justify-content: space-between;
+}
+.main .results div div img {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  transition: all 0.5;
+  margin: 20px;
+}
+.main .results div div img:hover {
+  transform: scale(1.3);
+}
+.main .results div div p {
+  font-size: 18px;
+  background-color: #241724;
+  color: #fff;
+  padding: 20px;
+}
