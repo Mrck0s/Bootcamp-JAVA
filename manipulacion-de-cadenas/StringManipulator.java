@@ -1,4 +1,4 @@
-public class StringManipulator{
+public class StringManipulator {
     public String join(String str1, String str2) {
         String trimStr1 = str1.trim();
         String trimStr2 = str2.trim();
