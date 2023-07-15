@@ -1,4 +1,5 @@
 
+
 public class Mammal {
     protected int energyLevel;
 
