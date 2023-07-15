@@ -1,6 +1,6 @@
-package zoo;
 
-public class GorillaTest {
+
+public class GorillaTest{
   public static void main(String[] args) {
     Gorilla george = new Gorilla();
     george.throwSomething();

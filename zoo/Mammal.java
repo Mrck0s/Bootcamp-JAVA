@@ -1,7 +1,10 @@
-package zoo;
 
 public class Mammal {
-    protected int energyLevel = 50;
+    protected int energyLevel;
+
+    public Mammal(int energy) {
+        energyLevel = energy;
+    }
 
     public Integer displayEnergy() {
         System.out.println("El nivel de energía es: " + energyLevel);

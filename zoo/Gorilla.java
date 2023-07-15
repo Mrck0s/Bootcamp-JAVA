@@ -1,10 +1,10 @@
-package zoo;
 
-public class Gorilla{
+
+public class Gorilla extends Mammal{
     private int energyLevel;
 
     public Gorilla() {
-        energyLevel = 50;
+        super(100);
     }
 
     public void throwSomething() {
