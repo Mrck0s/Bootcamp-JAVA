@@ -10,6 +10,7 @@ public class Pokemon {
     name = nameParam;
     health = healthParam;
     type = typeParam;
+    count++;
   }
   public String getName() {
     return name;

@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  height: 120%;
+}
+.page-title {
+  padding-left: 10px;
+  font-size: 30px;
+  color: #555;
+  font-weight: 500;
+}
+.blue-span {
+  color: #4363ba;
+}
+.main {
+  height: 88vh;
+  background-color: #fff;
+}
+.title {
+  background: linear-gradient(#3f5286, #5474cd, #3f5286);
+  color: white;
+  font-weight: 100;
+  padding: 10px;
+}
+.left-side {
+  display: inline-block;
+  width: 25%;
+  vertical-align: top;
+  padding: 20px 10px;
+  font-weight: bold;
+}
+hr {
+  margin: 10px 0;
+}
+.red-span {
+  color: red;
+}
+.question {
+  padding: 10px 0;
+}
+.left-side-text {
+  padding: 10px 0;
+}
+.left-side-btn {
+  width: 85%;
+  padding: 7px 0;
+  margin: 5px 0;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+.watch {
+  background: linear-gradient(#5474cd 10%, #3f5286);
+}
+.resources {
+  background: linear-gradient(#ffb121 10%, #dd6e0d);
+}
+.learn-container {
+  background-image: url(./img/ad_background.png);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.learn-text {
+  font-size: 24px;
+  color: white;
+  font-weight: 400;
+  width: 80%;
+  padding: 15px 0;
+  margin: auto;
+}
+.learn-img {
+  width: 35%;
+  margin: auto;
+}
+.learn {
+  background: linear-gradient(#4af0f0, #1dafe4);
+  margin: 20px auto;
+}
+.right-side {
+  display: inline-block;
+  width: 70%;
+}
+.head-container {
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+}
+.dns-container {
+  display: flex;
+  align-items: center;
+}
+.dns-img {
+  width: 25px;
+  height: 25px;
+}
+.dns-text {
+  color: #4363ba;
+  font-weight: 600;
+}
+.contact-div-container {
+  display: flex;
+  align-items: center;
+}
+.phone-img {
+  width: 50px;
+  height: 50px;
+}
+.contact-container {
+  margin-left: 15px;
+}
+.contact-text {
+  font-size: 12px;
+  padding-left: 10px;
+}
+.number {
+  color: cyan;
+  font-size: 30px;
+}
+.subtitle {
+  color: #4363ba;
+  font-size: 22px;
+  padding: 5px 0;
+}
+.cyan-span {
+  color: #1bbfbf;
+  font-weight: bold;
+}
+.clients-list,
+.happens-list {
+  margin-left: 35px;
+}
+.relation-img {
+  display: flex;
+  width: 30%;
+  margin: 30px auto;
+}
+.big3-container {
+  display: flex;
+  margin: 5% 0;
+  padding: 20px;
+  border: 4px rgb(1, 146, 213) solid;
+  justify-content: space-between;
+}
+.big3-text-container{
+  width: 80%;
+}
+.big3-img {
+  width: 10%;
+}
+.big3-text{
+  padding: 5px;
+}

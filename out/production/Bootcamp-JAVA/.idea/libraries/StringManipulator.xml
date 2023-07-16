@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="StringManipulator">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/manipulacion-de-cadenas/StringManipulator.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

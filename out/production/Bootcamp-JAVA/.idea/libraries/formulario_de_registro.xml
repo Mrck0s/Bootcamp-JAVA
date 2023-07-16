@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="formulario-de-registro">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/formulario-de-registro/formulario-de-registro.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

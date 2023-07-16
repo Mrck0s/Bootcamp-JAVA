@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  width: 970px;
+  height: 1029px;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  height: 6%;
+  width: 100%;
+  align-items: center;
+}
+.header span{
+  margin: 0 20px;
+  font-weight: bold;
+}
+.header-name{
+  font-size: 24px;
+}
+.main{
+  height: 86%;
+  width: 100%;
+  background: linear-gradient(#2e130a, #615050,#2e130a) ;
+}
+.about-container{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 30%;
+  padding: 20px 0px;
+}
+.about-img{
+  display: inline-block;
+  width: 45%;
+  height: 93%;
+  border: 3px solid #ccc;
+}
+.about{
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  height: 95%;
+  background-color: white;
+}
+.about-title{
+  background: linear-gradient(#ccc, #898989, #ccc);
+  color: #fff;
+  padding: 5px;
+  height: 10%;
+}
+.about-texts-container{
+  padding: 10px;
+  height: 85%;
+}
+.about-text{
+  display: inline-block;
+  padding: 5px;
+}
+.about-link{
+  color: #000;
+}
+.pages-container{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 65%;
+}
+.page-container{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 95%;
+  background-color: #e8e8e8;
+}
+.page-title{
+  background: linear-gradient(#ccc, #898989, #ccc);
+  color: white;
+  padding: 5px 10px;
+  font-size: 22px;
+}
+.page-text{
+  font-size: 15px;
+  padding: 10px;
+}
+.page-tech{
+  background: linear-gradient(#ccc, #898989, #ccc);
+  color: white;
+  padding: 5px 10px;
+  margin-top: 10px;
+}
+.page-imgs-conatiner{
+  display: flex;
+  flex-wrap: wrap;
+}
+.page-tech-img{
+  width: 15%;
+  padding: 5px;
+  margin: 2px;
+}
+.page-btn{
+  background-color: #446544;
+  color: white;
+  width: fit-content;
+  margin: auto;
+  padding: 5px;
+  border-radius: 5px;
+  border: solid 1px #1b351b;
+}
+.footer{
+  height: 7%;
+}
+.footer-mail-num{
+  height: 50%;
+  text-align: center;
+  padding-top: 10px;
+}
+.social-container{
+  display: flex;
+  height: 50%;
+  width: 50%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.footer-img{
+  height: 50%;
+}
+.footer-link{
+  color: #000;
+}
