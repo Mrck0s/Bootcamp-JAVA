@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="bloques-con-bootstrap">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/bloques-con-bootstrap/bloques-con-bootstrap.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
