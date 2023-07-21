@@ -7,6 +7,5 @@ public class HumanTest {
     System.out.println(enemie.health);
     prota.attack(enemie);
     System.out.println(enemie.health);
-
   }
 }

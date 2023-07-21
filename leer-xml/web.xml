@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app> <!-- etiqueta raíz -->
+    <display-name>SimpleServletProject</display-name> <!-- nombre del proyecto -->
+    
+    <servlet> <!-- servlet para leer xml -->
+        <servlet-name>simpleServlet</servlet-name> <!-- nombre del servlet -->
+        <servlet-class>org.codingdojo.tutorial.SimpleServlet</servlet-class> <!-- clase del servlet -->
+    </servlet>
+    
+    <servlet-mapping> <!-- mapeo del servlet -->
+        <servlet-name>simpleServlet</servlet-name> <!-- nombre del servlet -->
+        <url-pattern>/simpleServlet</url-pattern> <!-- patron que debe de seguir url del servlet -->
+    </servlet-mapping>
+    
+    <servlet> <!-- servlet para leer xml -->
+        <servlet-name>xmlServlet</servlet-name> <!-- nombre del servlet -->
+        <servlet-class>or.codingdojo.tutorial.XmlServlet</servlet-class> <!-- clase del servlet -->
+    </servlet>
+    
+    <servlet-mapping> <!-- mapeo del servlet -->
+        <servlet-name>xmlServlet</servlet-name> <!-- nombre del servlet -->
+        <url-pattern>/xmlServletpath</url-pattern> <!-- patron que debe de seguir url del servlet -->
+    </servlet-mapping>
+    
+    <welcome-file-list> <!--archivo que se muestra en la primera ejecucion del proyecto-->
+    <welcome-file>index.html</welcome-file> <!--indica cual archivo es-->
+    </welcome-file-list>
+</web-app>

@@ -1,4 +1,5 @@
 
+
 public class Human {
   protected int strength = 3;
   protected int intelligence = 3;
@@ -18,3 +19,9 @@ public class Human {
   }
 
   }
+
+  Human ryan = new Human();
+  Ninja lucas = new Ninja();
+  Wizard maria = new Wizard();
+
+  lucas.attack(maria);

@@ -5,11 +5,7 @@ public class Human {
   protected int stealth = 3;
   protected int health = 100;
 
-  public Human(int strength, int intelligence, int stealth, int health){
-    this.strength = strength;
-    this. intelligence = intelligence;
-    this.stealth = stealth;
-    this.health = health;
+  public Human(){
   }
 
   public Integer attack(Human target){

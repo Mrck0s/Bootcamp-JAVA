@@ -1,8 +1,8 @@
 
 
-public class CalculatorTest {
+public class CalculatorTest extends Calculator {
   public static void main(String[] args) {
-    Calculator c = new Calculator();
+    CalculatorTest c = new CalculatorTest();
     c.setOperatorOne(10.5);
     c.setOperation("+");
     c.setOperatorTwo(5.2);
